@@ -33,8 +33,8 @@ listen hbnb
     balance roundrobin
     option httpclose
     option forwardfor
-    server 469897-web-01 34.227.89.87 check
-    server 469897-web-02 54.90.4.233 check
+    server 474612-web-01 54.173.32.155 check
+    server 474612-web-02 52.201.228.226 check
 " >> /etc/haproxy/haproxy.cfg
 
 service haproxy start
